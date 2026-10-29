@@ -13,7 +13,8 @@ public class CacheConfig {
     public CaffeineCacheManager cacheManager() {
         return new CaffeineCacheManager(
                 "paper-searches",
-                "papers"
+                "papers",
+                "summaries"
         );
     }
 }
